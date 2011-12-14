@@ -1,0 +1,6 @@
+Doxia Site Renderer Resources
+=============================
+David Thomas Hume
+:Author Initials: DTH
+
+Resources files needed by custom Maven skins
