@@ -8,7 +8,12 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.dthume</groupId>
+  <parent>
+    <groupId>org.dthume</groupId>
+    <artifactId>dthume-parent</artifactId>
+    <version>0.1-SNAPSHOT</version>
+  </parent>
+
   <artifactId>doxia-site-renderer-resources</artifactId>
   <version>1.2.1-SNAPSHOT</version>
   <packaging>jar</packaging>
@@ -20,40 +25,6 @@
     Resources files needed by custom Maven skins
   </description>
 
-  <licenses>
-    <license>
-      <name>Apache</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
-    </license>
-  </licenses>
-
-  <scm>
-    <connection>scm:git:git://github.com/dthume/${project.artifactId}.git</connection>
-    <developerConnection>scm:git:https://dthume@github.com/dthume/${project.artifactId}.git</developerConnection>
-    <url>https://github.com/dthume/${project.artifactId}</url>
-  </scm>
-
-  <issueManagement>
-    <system>GitHub</system>
-    <url>https://github.com/dthume/${project.artifactId}/issues</url>
-  </issueManagement>
-
-  <developers>
-    <developer>
-      <id>dth</id>
-      <name>David Thomas Hume</name>
-      <email>dth@dthu.me</email>
-      <url>http://dthu.me</url>
-      <organization>Kana</organization>
-      <organizationUrl>http://www.kana.com</organizationUrl>
-      <roles>
-        <role>architect</role>
-        <role>developer</role>
-      </roles>
-      <timezone>0</timezone>
-    </developer>
-  </developers>
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>    
   </properties>
@@ -63,7 +34,6 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-release-plugin</artifactId>
-        <version>2.2.1</version>
         <configuration>
           <localCheckout>true</localCheckout>
           <pushChanges>false</pushChanges>
