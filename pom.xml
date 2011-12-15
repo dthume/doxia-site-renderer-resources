@@ -25,6 +25,16 @@
     Resources files needed by custom Maven skins
   </description>
 
+  <distributionManagement>
+    <site>
+      <id>dthu.me.web</id>
+      <name>org.dthume Maven Website</name>
+      <url>
+        file:///opt/maven/sites/org/dthume/${project.artifactId}/${project.version}/
+      </url>
+    </site>
+  </distributionManagement>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>    
   </properties>
@@ -38,6 +48,10 @@
           <localCheckout>true</localCheckout>
           <pushChanges>false</pushChanges>
         </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-site-plugin</artifactId>
       </plugin>
     </plugins>
   </build>
