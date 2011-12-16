@@ -5,5 +5,6 @@ David Thomas Hume
 
 Resources files needed by custom Maven skins.
 
-The Maven generated project site can be found
-http://dthume.github.com/doxia-site-renderer-resources[here].
+Maven generated project sites are available for the latest
+http://dthume.github.com/doxia-site-renderer-resources/[release] and
+http://dthu.me/projects/doxia-site-renderer-resources/[snapshot] versions.
