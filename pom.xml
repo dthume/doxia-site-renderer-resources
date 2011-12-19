@@ -18,7 +18,9 @@
   <url>http://dthume.github.com/${project.artifactId}/</url>
 
   <description>
-    Resources files needed by custom Maven skins
+    Resources files needed by custom Maven skins.
+    Note that this project is DEPRECATED; the dthume-site-skin
+    project now brings in the required resources directly.
   </description>
 
   <scm>

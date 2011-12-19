@@ -5,6 +5,11 @@ David Thomas Hume
 
 Resources files needed by custom Maven skins.
 
+Note this project is *DEPRECATED*; the
+http://dthume.github.com/dthume-site-skin[dthume-site-skin] project
+now brings in these resources directly via the
+http://maven.apache.org/plugins/maven-dependency-plugin/[maven-dependency-plugin].
+
 Maven generated project sites are available for the latest
 http://dthume.github.com/doxia-site-renderer-resources/[release] and
 http://dthu.me/projects/doxia-site-renderer-resources/[snapshot] versions.
